@@ -1,0 +1,10 @@
+bin\Release\hexcell.dll
+bin\Release\hexcell.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\hexcell.dll
+obj\Release\hexcell.pdb
+bin\Debug\hexcell.dll
+bin\Debug\hexcell.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\hexcell.dll
+obj\Debug\hexcell.pdb

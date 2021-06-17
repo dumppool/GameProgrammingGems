@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Goap Project", "Goap Project.vcproj", "{4BB41E28-EF58-47E6-98DB-0C963FAA7BCE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29E0379A-37B1-4846-ADC0-9B56ECEAD0D2} = {29E0379A-37B1-4846-ADC0-9B56ECEAD0D2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lua 5.1", "Lua 5.1\Lua 5.1.vcproj", "{29E0379A-37B1-4846-ADC0-9B56ECEAD0D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BB41E28-EF58-47E6-98DB-0C963FAA7BCE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BB41E28-EF58-47E6-98DB-0C963FAA7BCE}.Debug|Win32.Build.0 = Debug|Win32
+		{4BB41E28-EF58-47E6-98DB-0C963FAA7BCE}.Release|Win32.ActiveCfg = Release|Win32
+		{4BB41E28-EF58-47E6-98DB-0C963FAA7BCE}.Release|Win32.Build.0 = Release|Win32
+		{29E0379A-37B1-4846-ADC0-9B56ECEAD0D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{29E0379A-37B1-4846-ADC0-9B56ECEAD0D2}.Debug|Win32.Build.0 = Debug|Win32
+		{29E0379A-37B1-4846-ADC0-9B56ECEAD0D2}.Release|Win32.ActiveCfg = Release|Win32
+		{29E0379A-37B1-4846-ADC0-9B56ECEAD0D2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

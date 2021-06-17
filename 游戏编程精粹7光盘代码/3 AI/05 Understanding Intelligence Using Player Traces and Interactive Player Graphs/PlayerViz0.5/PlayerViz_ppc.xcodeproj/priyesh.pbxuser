@@ -1,0 +1,133 @@
+// !$*UTF8*$!
+{
+	A420C7D40C343E8300654BF1 /* CGULData.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {737, 2142}}";
+			sepNavSelRange = "{2331, 0}";
+			sepNavVisRect = "{{0, 1014}, {737, 589}}";
+			sepNavWindowFrame = "{{38, 159}, {782, 647}}";
+		};
+	};
+	A4D009E90C1F458E0081BDA4 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = A4D009FB0C1F45990081BDA4 /* PlayerViz_ppc */;
+		activeTarget = A4D009F80C1F45990081BDA4 /* PlayerViz_ppc */;
+		addToTargets = (
+			A4D009F80C1F45990081BDA4 /* PlayerViz_ppc */,
+		);
+		breakpointsGroup = A4F297150C21D6E0004F6CE1 /* XCBreakpointsBucket */;
+		codeSenseManager = A4D009EE0C1F458E0081BDA4 /* Code sense */;
+		executables = (
+			A4D009FB0C1F45990081BDA4 /* PlayerViz_ppc */,
+		);
+		ignoreBreakpointsInProjectsDict = {
+		};
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 208404340;
+			PBXWorkspaceStateSaveDate = 208404340;
+		};
+		sourceControlManager = A4D009ED0C1F458E0081BDA4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A4D009ED0C1F458E0081BDA4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	A4D009EE0C1F458E0081BDA4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A4D009F80C1F45990081BDA4 /* PlayerViz_ppc */ = {
+		activeExec = 0;
+		executables = (
+			A4D009FB0C1F45990081BDA4 /* PlayerViz_ppc */,
+		);
+	};
+	A4D009FB0C1F45990081BDA4 /* PlayerViz_ppc */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				displayName = "Executable Runner";
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PlayerViz_ppc;
+		sourceDirectories = (
+		);
+		startupPath = /Users/priyesh/Documents/2007/Masters/dixit/CGUL/PlayerViz/build/Debug/PlayerViz_ppc.app/Contents/MacOS;
+	};
+	A4D00A040C1F45B40081BDA4 /* GLWidget.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1088, 10640}}";
+			sepNavSelRange = "{12807, 0}";
+			sepNavVisRect = "{{0, 5720}, {1088, 729}}";
+			sepNavWindowFrame = "{{33, 45}, {1133, 787}}";
+		};
+	};
+	A4D00A050C1F45B40081BDA4 /* GLWidget.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 1764}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 392}, {1071, 609}}";
+			sepNavWindowFrame = "{{15, 160}, {1116, 667}}";
+		};
+	};
+	A4D00A060C1F45B40081BDA4 /* Main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {368, 403}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {368, 403}}";
+			sepNavWindowFrame = "{{566, 330}, {413, 461}}";
+		};
+	};
+	A4D00A070C1F45B40081BDA4 /* MainWindow.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1088, 5544}}";
+			sepNavSelRange = "{3693, 0}";
+			sepNavVisRect = "{{0, 1111}, {1088, 729}}";
+			sepNavWindowFrame = "{{15, 40}, {1133, 787}}";
+		};
+	};
+	A4D00A0B0C1F45B40081BDA4 /* SSPSGeometry.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {744, 18620}}";
+			sepNavSelRange = "{21452, 0}";
+			sepNavVisRect = "{{0, 10848}, {744, 690}}";
+			sepNavWindowFrame = "{{15, 79}, {789, 748}}";
+		};
+	};
+	A4F297150C21D6E0004F6CE1 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+		);
+	};
+}

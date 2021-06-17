@@ -1,0 +1,19 @@
+
+(1) To install for VC++ 6.0, move files to the following folders:
+
+    glut.h 	C:\Program Files\Microsoft Visual Studio\VC98\Include\GL
+
+    Glut32.dll	C:\WINNT\system32
+
+    Glut32.lib	C:\Program Files\Microsoft Visual Studio\VC98\lib
+
+
+
+
+(2) To install for VS.net 7.1, move files to the following folders:
+
+    glut.h 	C:\Program Files\Vc7\PlatformSDK\Include\gl
+
+    Glut32.dll	C:\WINNT\system32
+
+    Glut32.lib	C:\Program Files\Vc7\PlatformSDK\Lib

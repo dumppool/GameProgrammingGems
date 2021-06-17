@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLRThreadingExample", "GLRThreadingExample.vcproj", "{02763F18-2B4F-434E-9AC8-DD1F917E77A8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{02763F18-2B4F-434E-9AC8-DD1F917E77A8}.Debug.ActiveCfg = Debug|Win32
+		{02763F18-2B4F-434E-9AC8-DD1F917E77A8}.Debug.Build.0 = Debug|Win32
+		{02763F18-2B4F-434E-9AC8-DD1F917E77A8}.Release.ActiveCfg = Release|Win32
+		{02763F18-2B4F-434E-9AC8-DD1F917E77A8}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

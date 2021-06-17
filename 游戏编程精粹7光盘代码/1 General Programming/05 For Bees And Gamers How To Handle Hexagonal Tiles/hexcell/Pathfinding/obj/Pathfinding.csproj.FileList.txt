@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Pathfinding.Properties.Resources.resources
+obj\Debug\Pathfinding.csproj.GenerateResource.Cache
+bin\Debug\Pathfinding.exe
+bin\Debug\Pathfinding.pdb
+bin\Debug\hexcell.dll
+bin\Debug\hexcell.pdb
+obj\Debug\Pathfinding.exe
+obj\Debug\Pathfinding.pdb
+obj\Debug\Pathfinding.PathCell.resources

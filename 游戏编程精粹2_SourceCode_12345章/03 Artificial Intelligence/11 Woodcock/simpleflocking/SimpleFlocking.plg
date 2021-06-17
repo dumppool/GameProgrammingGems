@@ -1,0 +1,25 @@
+etup\syssetup\services.c,408,,MyChangeServiceConfig: Unlocked ServiceDatabase for service ClipSrv
+08/25/2008 16:56:18.280,d:\xpsp\base\ntsetup\syssetup\services.c,334,,MyChangeServiceConfig: LockingServiceDatabase for service NetDDE
+08/25/2008 16:56:18.280,d:\xpsp\base\ntsetup\syssetup\services.c,408,,MyChangeServiceConfig: Unlocked ServiceDatabase for service NetDDE
+08/25/2008 16:56:18.280,d:\xpsp\base\ntsetup\syssetup\services.c,334,,MyChangeServiceConfig: LockingServiceDatabase for service NetDDEdsdm
+08/25/2008 16:56:18.280,d:\xpsp\base\ntsetup\syssetup\services.c,408,,MyChangeServiceConfig: Unlocked ServiceDatabase for service NetDDEdsdm
+08/25/2008 16:56:18.280,d:\xpsp\base\ntsetup\syssetup\syssetup.c,3897,BEGIN_SECTION,Loading service pack (phase 4)
+08/25/2008 16:56:18.280,d:\xpsp\base\ntsetup\syssetup\syssetup.c,3899,END_SECTION,Loading service pack (phase 4)
+08/25/2008 16:56:18.280,d:\xpsp\base\ntsetup\syssetup\syssetup.c,3906,BEGIN_SECTION,Network setup handling Internet Server issues
+08/25/2008 16:56:18.280,d:\xpsp\base\ntsetup\syssetup\syssetup.c,3912,END_SECTION,Network setup handling Internet Server issues
+08/25/2008 16:56:18.296,d:\xpsp\base\ntsetup\syssetup\syssetup.c,3939,BEGIN_SECTION,Setting up virtual memory
+08/25/2008 16:56:18.296,d:\xpsp\base\ntsetup\syssetup\log.c,133,,SetUpVirtualMemory: ENTER
+
+08/25/2008 16:56:18.296,d:\xpsp\base\ntsetup\syssetup\log.c,133,,BuildVolumeFreeSpaceList: C:\, spc=8, bps=512, freeclus=7330745, totalclus=7679062
+
+08/25/2008 16:56:18.296,d:\xpsp\base\ntsetup\syssetup\log.c,133,,BuildVolumeFreeSpaceList: C:\, FreeSpace = 64256927744
+
+08/25/2008 16:56:18.296,d:\xpsp\base\ntsetup\syssetup\log.c,133,,BuildVolumeFreeSpaceList: C:\ had 120586240 byte pagefile, new FreeSpace = 782546688
+
+08/25/2008 16:56:18.296,d:\xpsp\base\ntsetup\syssetup\log.c,133,,BuildVolumeFreeSpaceList: Free space on C:\ is 28750 MB
+
+08/25/2008 16:56:18.327,d:\xpsp\base\ntsetup\syssetup\log.c,133,,SetUpVirtualMemory: loc 1
+
+08/25/2008 16:56:18.327,d:\xpsp\base\ntsetup\syssetup\log.c,133,,∞≤◊∞≥Ã–Ú≈‰÷√¡ÀœµÕ≥£¨‘⁄«˝∂Ø∆˜ C: …œ◊∞»Î¡À“ª∏08/25/2008 16:56:18.327,d:\xpsp\base\ntsetup\syssetup\log.c,133,,“—∆Ù∂Øπ ’œ◊™08/25/2008 16:56:18.327,d:\xpsp\base\ntsetup\syssetup\log.c,133,,SetUpVirtualMemory: EXIT (1)
+
+08/25/2008 16:56:18

@@ -1,0 +1,34 @@
+Configuração: Mapa C tec 2
+
+       0.00000s          início          início       (      15.04457;      14.58089)
+       2.83300s            alvo            alvo       (      18.03732;       4.59686)
+       8.29100s            alvo            alvo       (      21.61600;      11.98567)
+      11.49900s            alvo            alvo       (      21.41426;       1.60344)
+      16.02700s            alvo            alvo       (      10.59614;       5.82402)
+      17.44500s         colisão       obstáculo       (       9.40403;       1.95467)
+      17.44500s         colisão       obstáculo       (       9.38075;       1.97940)
+      17.47200s         colisão       obstáculo       (       9.40635;       1.93139)
+      17.50000s         colisão       obstáculo       (       9.40667;       1.95594)
+      17.52800s         colisão       obstáculo       (       9.40688;       1.97983)
+      22.13700s            alvo            alvo       (       1.21404;       9.40172)
+      23.47000s         colisão          parede       (       3.40488;      10.86890)
+      23.49900s         colisão          parede       (       3.40793;      10.92384)
+      23.52800s         colisão          parede       (       3.40239;      10.98334)
+      23.56200s         colisão          parede       (       3.41220;      11.03941)
+      23.58200s         colisão          parede       (       3.38849;      11.10905)
+      23.61100s         colisão          parede       (       3.39384;      11.15758)
+      23.63800s         colisão          parede       (       3.39227;      11.21500)
+      23.67100s         colisão          parede       (       3.39807;      11.27500)
+      23.72000s         colisão          parede       (       3.42295;      11.39562)
+      23.74900s         colisão          parede       (       3.42246;      11.45391)
+      23.77600s         colisão          parede       (       3.41367;      11.51651)
+      23.80900s         colisão          parede       (       3.42116;      11.57480)
+      23.83200s         colisão          parede       (       3.39576;      11.64604)
+      23.86000s         colisão          parede       (       3.39993;      11.69569)
+      23.89100s         colisão          parede       (       3.39763;      11.75397)
+      24.83200s             fim             fim       (       2.10112;      13.41583)
+
+Total dos eventos:
+alvo alvo: 5
+colisão obstáculo: 5
+colisão parede: 15

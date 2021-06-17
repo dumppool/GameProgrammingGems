@@ -1,0 +1,59 @@
+TABLE OF CONTENTS
+
+1. Installation
+2. Running the demo
+3. Existing Agent Scripts
+4. Training New Agents
+
+
+
+1. Installation
+
+To compile and install on Linux or Unix, see INSTALL.
+
+To compile for Windows in Microsoft Visual C++ 2005, open VC8.sln in the Visual
+C++ IDE and build.
+
+
+2. Running the Demo
+
+Simply run:
+
+aishooter [-s] <script>
+
+Where <script> is the filename of the agent script you wish to try out. There 
+is an optional argument to the demo, -s which will prevent the demo from 
+randomizing the ship's starting positions (useful for training new agents).
+
+
+3. Existing Agent scripts
+
+I have created a few agent scripts you can play with or use to train agents.
+All of these scripts are written using the Lua language (http://www.lua.org)
+
+For each agent I trained, I used "agent_null.lua", the -s option in the demo
+program, as well as the default settings for the learning tool.
+
+agent_null.lua  - An agent that does nothing
+agent.lua       - A hand coded agent that seeks the player and shoots
+agent_loop.lua  - Trained by circling the opponent ship
+agent_kill.lua  - Trained by approaching the opponent and immediately firing
+
+
+4. Training New Agents
+
+NOTE: This code can be really slow if compiled in debug mode. Compile with
+optimizations on (release mode) for faster training times.
+
+Every time you run the demo, it creates a training data file upon exit. This
+file can be passed into the learning tool to create a new agent script.
+
+To run the learning tool:
+
+learn <data_file> <output_script>
+
+Simply pass in any data file you wish, and the desired output script and a new
+agent will be created. You can directly try those scripts out in the demo game.
+
+If you want to see other options, execute "learn" without any arguments.
+

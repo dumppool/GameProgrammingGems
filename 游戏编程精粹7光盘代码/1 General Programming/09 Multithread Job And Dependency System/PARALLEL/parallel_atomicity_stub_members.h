@@ -1,0 +1,1 @@
+typedef UINT32 CRITICAL_SECTION;

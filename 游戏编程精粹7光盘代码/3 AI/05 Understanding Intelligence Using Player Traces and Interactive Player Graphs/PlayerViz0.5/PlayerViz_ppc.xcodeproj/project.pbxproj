@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A420C7DC0C343E8300654BF1 /* CGULData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A420C7D40C343E8300654BF1 /* CGULData.cpp */; };
+		A420C7DD0C343E8300654BF1 /* hMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A420C7D60C343E8300654BF1 /* hMatrix.cpp */; };
+		A420C7DE0C343E8300654BF1 /* Orientation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A420C7D80C343E8300654BF1 /* Orientation.cpp */; };
+		A420C7DF0C343E8300654BF1 /* PolarVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A420C7DA0C343E8300654BF1 /* PolarVector.cpp */; };
+		A4D00A0D0C1F45B40081BDA4 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4D00A020C1F45B40081BDA4 /* Camera.cpp */; };
+		A4D00A0E0C1F45B40081BDA4 /* GLWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4D00A040C1F45B40081BDA4 /* GLWidget.cpp */; };
+		A4D00A0F0C1F45B40081BDA4 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4D00A060C1F45B40081BDA4 /* Main.cpp */; };
+		A4D00A100C1F45B40081BDA4 /* MainWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4D00A070C1F45B40081BDA4 /* MainWindow.cpp */; };
+		A4D00A110C1F45B40081BDA4 /* RGBColorMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4D00A090C1F45B40081BDA4 /* RGBColorMap.cpp */; };
+		A4D00A120C1F45B40081BDA4 /* SSPSGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4D00A0B0C1F45B40081BDA4 /* SSPSGeometry.cpp */; };
+		A4D00A160C1F45EA0081BDA4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D00A140C1F45EA0081BDA4 /* GLUT.framework */; };
+		A4D00A170C1F45EA0081BDA4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D00A150C1F45EA0081BDA4 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A420C7D40C343E8300654BF1 /* CGULData.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CGULData.cpp; sourceTree = "<group>"; };
+		A420C7D50C343E8300654BF1 /* CGULData.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CGULData.h; sourceTree = "<group>"; };
+		A420C7D60C343E8300654BF1 /* hMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = hMatrix.cpp; sourceTree = "<group>"; };
+		A420C7D70C343E8300654BF1 /* hMatrix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = hMatrix.h; sourceTree = "<group>"; };
+		A420C7D80C343E8300654BF1 /* Orientation.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Orientation.cpp; sourceTree = "<group>"; };
+		A420C7D90C343E8300654BF1 /* Orientation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Orientation.h; sourceTree = "<group>"; };
+		A420C7DA0C343E8300654BF1 /* PolarVector.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = PolarVector.cpp; sourceTree = "<group>"; };
+		A420C7DB0C343E8300654BF1 /* PolarVector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PolarVector.h; sourceTree = "<group>"; };
+		A4D009F90C1F45990081BDA4 /* PlayerViz_ppc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PlayerViz_ppc; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D00A020C1F45B40081BDA4 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		A4D00A030C1F45B40081BDA4 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		A4D00A040C1F45B40081BDA4 /* GLWidget.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = GLWidget.cpp; sourceTree = "<group>"; };
+		A4D00A050C1F45B40081BDA4 /* GLWidget.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GLWidget.h; sourceTree = "<group>"; };
+		A4D00A060C1F45B40081BDA4 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		A4D00A070C1F45B40081BDA4 /* MainWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = MainWindow.cpp; sourceTree = "<group>"; };
+		A4D00A080C1F45B40081BDA4 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		A4D00A090C1F45B40081BDA4 /* RGBColorMap.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = RGBColorMap.cpp; sourceTree = "<group>"; };
+		A4D00A0A0C1F45B40081BDA4 /* RGBColorMap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RGBColorMap.h; sourceTree = "<group>"; };
+		A4D00A0B0C1F45B40081BDA4 /* SSPSGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = SSPSGeometry.cpp; sourceTree = "<group>"; };
+		A4D00A0C0C1F45B40081BDA4 /* SSPSGeometry.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SSPSGeometry.h; sourceTree = "<group>"; };
+		A4D00A140C1F45EA0081BDA4 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		A4D00A150C1F45EA0081BDA4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D009F70C1F45990081BDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D00A160C1F45EA0081BDA4 /* GLUT.framework in Frameworks */,
+				A4D00A170C1F45EA0081BDA4 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4D009E70C1F458E0081BDA4 = {
+			isa = PBXGroup;
+			children = (
+				A420C7D40C343E8300654BF1 /* CGULData.cpp */,
+				A420C7D50C343E8300654BF1 /* CGULData.h */,
+				A420C7D60C343E8300654BF1 /* hMatrix.cpp */,
+				A420C7D70C343E8300654BF1 /* hMatrix.h */,
+				A420C7D80C343E8300654BF1 /* Orientation.cpp */,
+				A420C7D90C343E8300654BF1 /* Orientation.h */,
+				A420C7DA0C343E8300654BF1 /* PolarVector.cpp */,
+				A420C7DB0C343E8300654BF1 /* PolarVector.h */,
+				A4D00A140C1F45EA0081BDA4 /* GLUT.framework */,
+				A4D00A150C1F45EA0081BDA4 /* OpenGL.framework */,
+				A4D00A020C1F45B40081BDA4 /* Camera.cpp */,
+				A4D00A030C1F45B40081BDA4 /* Camera.h */,
+				A4D00A040C1F45B40081BDA4 /* GLWidget.cpp */,
+				A4D00A050C1F45B40081BDA4 /* GLWidget.h */,
+				A4D00A060C1F45B40081BDA4 /* Main.cpp */,
+				A4D00A070C1F45B40081BDA4 /* MainWindow.cpp */,
+				A4D00A080C1F45B40081BDA4 /* MainWindow.h */,
+				A4D00A090C1F45B40081BDA4 /* RGBColorMap.cpp */,
+				A4D00A0A0C1F45B40081BDA4 /* RGBColorMap.h */,
+				A4D00A0B0C1F45B40081BDA4 /* SSPSGeometry.cpp */,
+				A4D00A0C0C1F45B40081BDA4 /* SSPSGeometry.h */,
+				A4D009FA0C1F45990081BDA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D009FA0C1F45990081BDA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D009F90C1F45990081BDA4 /* PlayerViz_ppc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D009F80C1F45990081BDA4 /* PlayerViz_ppc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D009FC0C1F459A0081BDA4 /* Build configuration list for PBXNativeTarget "PlayerViz_ppc" */;
+			buildPhases = (
+				A4D009F60C1F45990081BDA4 /* Sources */,
+				A4D009F70C1F45990081BDA4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayerViz_ppc;
+			productName = PlayerViz_ppc;
+			productReference = A4D009F90C1F45990081BDA4 /* PlayerViz_ppc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D009E90C1F458E0081BDA4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A4D009EA0C1F458E0081BDA4 /* Build configuration list for PBXProject "PlayerViz_ppc" */;
+			hasScannedForEncodings = 0;
+			mainGroup = A4D009E70C1F458E0081BDA4;
+			productRefGroup = A4D009FA0C1F45990081BDA4 /* Products */;
+			projectDirPath = "";
+			targets = (
+				A4D009F80C1F45990081BDA4 /* PlayerViz_ppc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D009F60C1F45990081BDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D00A0D0C1F45B40081BDA4 /* Camera.cpp in Sources */,
+				A4D00A0E0C1F45B40081BDA4 /* GLWidget.cpp in Sources */,
+				A4D00A0F0C1F45B40081BDA4 /* Main.cpp in Sources */,
+				A4D00A100C1F45B40081BDA4 /* MainWindow.cpp in Sources */,
+				A4D00A110C1F45B40081BDA4 /* RGBColorMap.cpp in Sources */,
+				A4D00A120C1F45B40081BDA4 /* SSPSGeometry.cpp in Sources */,
+				A420C7DC0C343E8300654BF1 /* CGULData.cpp in Sources */,
+				A420C7DD0C343E8300654BF1 /* hMatrix.cpp in Sources */,
+				A420C7DE0C343E8300654BF1 /* Orientation.cpp in Sources */,
+				A420C7DF0C343E8300654BF1 /* PolarVector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4D009EB0C1F458E0081BDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A4D009EC0C1F458E0081BDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		A4D009FD0C1F459A0081BDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-lfltk",
+					"-lfltk_gl",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PlayerViz_ppc;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		A4D009FE0C1F459A0081BDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-lfltk",
+					"-lfltk_gl",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PlayerViz_ppc;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D009EA0C1F458E0081BDA4 /* Build configuration list for PBXProject "PlayerViz_ppc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D009EB0C1F458E0081BDA4 /* Debug */,
+				A4D009EC0C1F458E0081BDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D009FC0C1F459A0081BDA4 /* Build configuration list for PBXNativeTarget "PlayerViz_ppc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D009FD0C1F459A0081BDA4 /* Debug */,
+				A4D009FE0C1F459A0081BDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4D009E90C1F458E0081BDA4 /* Project object */;
+}

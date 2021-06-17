@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B7B4C930C283400004CA014 /* CGULData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B4C910C283400004CA014 /* CGULData.cpp */; };
+		6B7B4CC80C284897004CA014 /* hMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B4CC60C284897004CA014 /* hMatrix.cpp */; };
+		6BC382250C1DBC5F00D335EF /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3821A0C1DBC5F00D335EF /* Camera.cpp */; };
+		6BC382260C1DBC5F00D335EF /* GLWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3821C0C1DBC5F00D335EF /* GLWidget.cpp */; };
+		6BC382270C1DBC5F00D335EF /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3821E0C1DBC5F00D335EF /* Main.cpp */; };
+		6BC382280C1DBC5F00D335EF /* MainWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3821F0C1DBC5F00D335EF /* MainWindow.cpp */; };
+		6BC382290C1DBC5F00D335EF /* RGBColorMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC382210C1DBC5F00D335EF /* RGBColorMap.cpp */; };
+		6BC3822A0C1DBC5F00D335EF /* SSPSGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BC382230C1DBC5F00D335EF /* SSPSGeometry.cpp */; };
+		6BC382340C1DBC8100D335EF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC382330C1DBC8100D335EF /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B7B4C910C283400004CA014 /* CGULData.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CGULData.cpp; sourceTree = "<group>"; };
+		6B7B4C920C283400004CA014 /* CGULData.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CGULData.h; sourceTree = "<group>"; };
+		6B7B4CC60C284897004CA014 /* hMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = hMatrix.cpp; sourceTree = "<group>"; };
+		6B7B4CC70C284897004CA014 /* hMatrix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = hMatrix.h; sourceTree = "<group>"; };
+		6BC382140C1DBC2F00D335EF /* PlayerViz_intel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PlayerViz_intel; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC3821A0C1DBC5F00D335EF /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		6BC3821B0C1DBC5F00D335EF /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		6BC3821C0C1DBC5F00D335EF /* GLWidget.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = GLWidget.cpp; sourceTree = "<group>"; };
+		6BC3821D0C1DBC5F00D335EF /* GLWidget.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GLWidget.h; sourceTree = "<group>"; };
+		6BC3821E0C1DBC5F00D335EF /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		6BC3821F0C1DBC5F00D335EF /* MainWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = MainWindow.cpp; sourceTree = "<group>"; };
+		6BC382200C1DBC5F00D335EF /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		6BC382210C1DBC5F00D335EF /* RGBColorMap.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = RGBColorMap.cpp; sourceTree = "<group>"; };
+		6BC382220C1DBC5F00D335EF /* RGBColorMap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RGBColorMap.h; sourceTree = "<group>"; };
+		6BC382230C1DBC5F00D335EF /* SSPSGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = SSPSGeometry.cpp; sourceTree = "<group>"; };
+		6BC382240C1DBC5F00D335EF /* SSPSGeometry.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SSPSGeometry.h; sourceTree = "<group>"; };
+		6BC382330C1DBC8100D335EF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BC382120C1DBC2F00D335EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC382340C1DBC8100D335EF /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BC382040C1DBC1C00D335EF = {
+			isa = PBXGroup;
+			children = (
+				6BC382330C1DBC8100D335EF /* OpenGL.framework */,
+				6B7B4CC60C284897004CA014 /* hMatrix.cpp */,
+				6B7B4CC70C284897004CA014 /* hMatrix.h */,
+				6B7B4C910C283400004CA014 /* CGULData.cpp */,
+				6B7B4C920C283400004CA014 /* CGULData.h */,
+				6BC3821A0C1DBC5F00D335EF /* Camera.cpp */,
+				6BC3821B0C1DBC5F00D335EF /* Camera.h */,
+				6BC3821C0C1DBC5F00D335EF /* GLWidget.cpp */,
+				6BC3821D0C1DBC5F00D335EF /* GLWidget.h */,
+				6BC3821E0C1DBC5F00D335EF /* Main.cpp */,
+				6BC3821F0C1DBC5F00D335EF /* MainWindow.cpp */,
+				6BC382200C1DBC5F00D335EF /* MainWindow.h */,
+				6BC382210C1DBC5F00D335EF /* RGBColorMap.cpp */,
+				6BC382220C1DBC5F00D335EF /* RGBColorMap.h */,
+				6BC382230C1DBC5F00D335EF /* SSPSGeometry.cpp */,
+				6BC382240C1DBC5F00D335EF /* SSPSGeometry.h */,
+				6BC382150C1DBC2F00D335EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BC382150C1DBC2F00D335EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BC382140C1DBC2F00D335EF /* PlayerViz_intel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BC382130C1DBC2F00D335EF /* PlayerViz_intel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC382170C1DBC3000D335EF /* Build configuration list for PBXNativeTarget "PlayerViz_intel" */;
+			buildPhases = (
+				6BC382110C1DBC2F00D335EF /* Sources */,
+				6BC382120C1DBC2F00D335EF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayerViz_intel;
+			productName = PlayerViz_intel;
+			productReference = 6BC382140C1DBC2F00D335EF /* PlayerViz_intel */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BC382060C1DBC1C00D335EF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6BC382070C1DBC1C00D335EF /* Build configuration list for PBXProject "PlayerViz_x86" */;
+			hasScannedForEncodings = 0;
+			mainGroup = 6BC382040C1DBC1C00D335EF;
+			productRefGroup = 6BC382150C1DBC2F00D335EF /* Products */;
+			projectDirPath = "";
+			targets = (
+				6BC382130C1DBC2F00D335EF /* PlayerViz_intel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BC382110C1DBC2F00D335EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC382250C1DBC5F00D335EF /* Camera.cpp in Sources */,
+				6BC382260C1DBC5F00D335EF /* GLWidget.cpp in Sources */,
+				6BC382270C1DBC5F00D335EF /* Main.cpp in Sources */,
+				6BC382280C1DBC5F00D335EF /* MainWindow.cpp in Sources */,
+				6BC382290C1DBC5F00D335EF /* RGBColorMap.cpp in Sources */,
+				6BC3822A0C1DBC5F00D335EF /* SSPSGeometry.cpp in Sources */,
+				6B7B4C930C283400004CA014 /* CGULData.cpp in Sources */,
+				6B7B4CC80C284897004CA014 /* hMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6BC382080C1DBC1C00D335EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6BC382090C1DBC1C00D335EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		6BC382180C1DBC3000D335EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-lfltk",
+					"-lfltk_gl",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PlayerViz_intel;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		6BC382190C1DBC3000D335EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-lfltk",
+					"-lfltk_gl",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PlayerViz_intel;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BC382070C1DBC1C00D335EF /* Build configuration list for PBXProject "PlayerViz_x86" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC382080C1DBC1C00D335EF /* Debug */,
+				6BC382090C1DBC1C00D335EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC382170C1DBC3000D335EF /* Build configuration list for PBXNativeTarget "PlayerViz_intel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC382180C1DBC3000D335EF /* Debug */,
+				6BC382190C1DBC3000D335EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BC382060C1DBC1C00D335EF /* Project object */;
+}

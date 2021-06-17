@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hexcell", "hexcell\hexcell.csproj", "{C4D5C16A-E86A-41EE-9483-A6A8554937F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConverterLab", "converterLab\ConverterLab.csproj", "{13543A07-D724-4976-921D-96A295F03989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexLife", "HexLife\HexLife.csproj", "{4891678B-87A1-435B-B25B-E535E8D1EAC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdgeDetection", "EdgeDetection\EdgeDetection.csproj", "{490AFA76-8DFD-4267-8482-165DA4D75705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pathfinding", "Pathfinding\Pathfinding.csproj", "{45D28631-CF4D-4C85-A369-E5623CBB05ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4D5C16A-E86A-41EE-9483-A6A8554937F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D5C16A-E86A-41EE-9483-A6A8554937F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D5C16A-E86A-41EE-9483-A6A8554937F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D5C16A-E86A-41EE-9483-A6A8554937F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13543A07-D724-4976-921D-96A295F03989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13543A07-D724-4976-921D-96A295F03989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13543A07-D724-4976-921D-96A295F03989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13543A07-D724-4976-921D-96A295F03989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4891678B-87A1-435B-B25B-E535E8D1EAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4891678B-87A1-435B-B25B-E535E8D1EAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4891678B-87A1-435B-B25B-E535E8D1EAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4891678B-87A1-435B-B25B-E535E8D1EAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490AFA76-8DFD-4267-8482-165DA4D75705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490AFA76-8DFD-4267-8482-165DA4D75705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490AFA76-8DFD-4267-8482-165DA4D75705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490AFA76-8DFD-4267-8482-165DA4D75705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D28631-CF4D-4C85-A369-E5623CBB05ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D28631-CF4D-4C85-A369-E5623CBB05ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D28631-CF4D-4C85-A369-E5623CBB05ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D28631-CF4D-4C85-A369-E5623CBB05ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

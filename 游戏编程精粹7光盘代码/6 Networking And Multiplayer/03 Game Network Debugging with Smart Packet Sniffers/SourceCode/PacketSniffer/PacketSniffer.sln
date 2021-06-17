@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PacketSniffer", "PacketSniffer.vcproj", "{5FA063FD-D0CE-487C-96D2-2A51109F3D7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plug-ins", "Plug-ins", "{B2230B7A-5EA1-4147-990E-0B9128E0BC7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimProtocol", "..\Plug-ins\SimProtocol\SimProtocol.vcproj", "{AA886D62-AC4D-4A65-BE92-A0DFCE2D52A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FA063FD-D0CE-487C-96D2-2A51109F3D7D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5FA063FD-D0CE-487C-96D2-2A51109F3D7D}.Debug|Win32.Build.0 = Debug|Win32
+		{5FA063FD-D0CE-487C-96D2-2A51109F3D7D}.Release|Win32.ActiveCfg = Release|Win32
+		{5FA063FD-D0CE-487C-96D2-2A51109F3D7D}.Release|Win32.Build.0 = Release|Win32
+		{AA886D62-AC4D-4A65-BE92-A0DFCE2D52A1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA886D62-AC4D-4A65-BE92-A0DFCE2D52A1}.Debug|Win32.Build.0 = Debug|Win32
+		{AA886D62-AC4D-4A65-BE92-A0DFCE2D52A1}.Release|Win32.ActiveCfg = Release|Win32
+		{AA886D62-AC4D-4A65-BE92-A0DFCE2D52A1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA886D62-AC4D-4A65-BE92-A0DFCE2D52A1} = {B2230B7A-5EA1-4147-990E-0B9128E0BC7A}
+	EndGlobalSection
+EndGlobal

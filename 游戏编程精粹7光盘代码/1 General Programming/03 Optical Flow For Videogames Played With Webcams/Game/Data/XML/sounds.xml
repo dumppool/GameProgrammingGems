@@ -1,0 +1,7 @@
+<sounds>
+	<sound2d name="buttonClick" path="../Data/Sounds/button13.wav" />
+	<sound2d name="boom" path="../Data/Sounds/boom.wav" />
+	<sound2d name="splash" path="../Data/Sounds/splash.wav" />
+	<sound2d name="gameOver" path="../Data/Sounds/gameOver.wav" />
+	<sound2d name="init" path="../Data/Sounds/Init.wav" />
+</sounds>
